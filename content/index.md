@@ -3,11 +3,14 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Welcome
 ==========================
 
-The source for this page is in `content/index.md`.
+...to my portfolio-webpage! My name is Emma and I work in the IT-sector
+but study the program *Webprogrammering distans* in my spare time.
+![Bild på Emma](%assets_url%/img/emma.jpg "Bild på Emma"){.mePic}
+When I'm not working or studying I also like to spend time outdoors and travel.
 
-This is a sample home page written in markdown with some frontmatter defined.
-
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+<br>This page was created in the course *Design* during fall 2020. The flash
+picture in the header was taken when out camping during one of those
+rare warm and sunny Swedish summer evenings.
