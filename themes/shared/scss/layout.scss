@@ -1,0 +1,105 @@
+.top-header {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.top-header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.flash-img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.title,
+.logo {
+    float: left;
+    padding: 1em 0 0 3em;
+}
+
+
+.main-container {
+    max-width: 48em;
+    padding: 2em 0.5em;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    padding: 2em;
+    background-color: #000;
+}
+
+.footer .social {
+    float: right;
+    font-size: 2.5em;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+
+/*** NAVBAR ***/
+
+.nav {
+    padding: 3em;
+    text-align: right;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav a,
+.nav-toggle {
+    color: $headfoot-color;
+}
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: #ceaf7d;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: #3b440d;
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}

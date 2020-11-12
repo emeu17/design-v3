@@ -1,0 +1,72 @@
+$headfoot-color: #86806a;
+@import '../../shared/scss/base';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/* other imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@300&display=swap');
+
+.me-pic {
+    float: right;
+    padding: 2em;
+    height: 300px;
+}
+
+.title *,
+.footer a {
+    color: $headfoot-color;
+    text-decoration: none;
+}
+
+.footer p {
+    color: $headfoot-color;
+}
+
+
+
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+
+@media (max-width: 64em) {
+    .main {
+        font-size: 0.9em;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+}
