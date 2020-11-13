@@ -339,6 +339,7 @@ template {
   display: none;
 }
 
+/*color used in text, links and fontawesome-icons in header and footer */
 .top-header {
   margin: 0;
   padding: 0;
@@ -412,7 +413,6 @@ template {
   margin: 0;
   padding: 0;
 }
-
 .nav ul li {
   display: inline-block;
   margin-left: 1em;

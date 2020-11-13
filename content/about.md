@@ -28,3 +28,8 @@ This website is built up using the following tools:
 
 - __Package manager__ Composer and NPM for handling PHP and javascript packages
  used on this website.
+
+- __Git and Github__ (see link in footer)
+    Git is used to track changes in source code, ie to keep
+    version control of the website. Github is a hosting service that is used
+    to manage the Git repositories.   
