@@ -1,6 +1,8 @@
 ---
 Title: Kmom01
 Description: Report for Kmom01
+Template: kmom
+id: report/kmom01
 ---
 
 Kmom01 redovisning

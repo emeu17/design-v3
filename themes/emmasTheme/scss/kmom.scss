@@ -1,0 +1,48 @@
+.kmompage {
+    display: grid;
+    gap: 1.5em 1.5em;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2em 2em;
+}
+
+.kmom-links {
+    margin-top: 7em;
+    grid-column: span 1;
+}
+
+.kmom-links a {
+    display: block;
+    padding-left: 2em;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.kmom-links a:hover {
+    color: #3b440d;
+    font-weight: bold;
+}
+
+.kmom-active {
+    color: #ceaf7d;
+    font-weight: bold;
+}
+
+
+.kmom-text {
+    grid-column: span 2;
+}
+
+@media (max-width: 920px) {
+    .kmom-links {
+        display: none;
+    }
+
+    .kmom-text {
+        grid-column: span 3;
+        padding: 0 1em;
+    }
+
+    .kmompage h1 {
+        font-size: 2em;
+    }
+}

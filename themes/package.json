@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass emmasTheme/scss/style.scss emmasTheme/css/style.css --no-source-map",
-    "style-min": "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed",
+    "watch":  "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",
