@@ -16,20 +16,21 @@
 
 .kmom-box {
     grid-column: span 1;
-    border: 1px solid $kmombox-border;
-    box-shadow: 5px 8px 5px $kmombox-border;
+    border: 1px solid #ccc;
+    box-shadow: 5px 8px 5px #ccc;
     /*align-items: center;*/
 }
 
 .kmom-box h2 {
     font-size: 1.2em;
-    color: $kmombox-header;
+    color: #fff;
     padding: 1em;
+
+
 }
 
-
 .kmom-box a {
-    background-color: $kmombox-background;
+    background-color: #333;
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -37,7 +38,7 @@
 }
 
 .kmom-box a:hover {
-    color: $hover-color;
+    color: #3b440d;
 }
 
 .fa-arrow-circle-right {

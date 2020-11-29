@@ -1,7 +1,7 @@
 .top-header {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: $header-bg;
 }
 
 .top-header h1 {
@@ -27,13 +27,16 @@
     max-width: 48em;
     padding: 2em 0.5em;
     margin: 0 auto;
+    background-color: $bg-color;
 }
 
 .footer {
     margin-top: auto;
     width: 100%;
     padding: 2em;
-    background-color: #000;
+    background-color: $footer-color;
+    border-top: 1px solid $footer-border;
+    box-shadow: 5px 8px 5px $footer-border;
 }
 
 .footer .social {
@@ -91,12 +94,12 @@
 }
 
 .nav .active a {
-    color: #ceaf7d;
+    color: $active-link-color;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $hover-color;
     text-decoration: underline;
 }
 

@@ -1,5 +1,4 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
 @import 'layout';
 
 * {
@@ -17,7 +16,7 @@ h4,
 h5,
 h6 {
     font-family: 'Oswald', sans-serif;
-    color: #333;
+    color: $font-color;
     /*padding-bottom: 0.5em;*/
 }
 
@@ -33,6 +32,7 @@ body {
 
 html {
     font-size: 100%;
+    background-color: $bg-color;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 }
 
 p {
-    color: #333;
+    color: $font-color;
     letter-spacing: 0.05em;
     font-size: 1em;
     margin-bottom: 1rem; /* 1.4 * 1 = 1.4 em vår baseline kändes för mycket, minskade till 1rem */
@@ -54,7 +54,7 @@ a {
 
 
 a:hover {
-    color: #000;
+    color: $base-hover;
 }
 
 @media (min-width: 920px) {

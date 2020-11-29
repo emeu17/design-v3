@@ -18,7 +18,7 @@ if (is_file(__DIR__ . '/vendor/autoload.php')) {
     die("Cannot find 'vendor/autoload.php'. Run `composer install`.");
 }
 
-//require_once(__DIR__ . "/config/config.php");
+require_once(__DIR__ . "/config/config.php");
 
 // instance Pico
 $pico = new Pico(
@@ -28,8 +28,35 @@ $pico = new Pico(
     'themes/'   // themes dir
 );
 
+if (isset($_GET["action"])) {
+    if ($_GET["action"] == "theme") {
+        $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null;
+
+        if ($previousValue == "dark") {
+            unset($_SESSION["theme"]);
+        } else {
+            $_SESSION["theme"] = "dark";
+        }
+
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+
+    if ($_GET["action"] == "session_destroy") {
+        session_destroy();
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+}
+
+
+//$_SESSION["test"] = "Testing session";
 // override configuration?
-//$pico->setConfig(array());
+$pico->setConfig(array(
+    'session' => $_SESSION
+));
 
 // run application
 echo $pico->run();

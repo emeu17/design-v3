@@ -1,5 +1,5 @@
-/*Light mode theme*/
-@import 'variables';
+/*dark mode theme*/
+@import 'variables-dark';
 @import '../../shared/scss/base';
 @import 'typography';
 @import 'report';
@@ -22,6 +22,10 @@
 
 .footer p {
     color: $headfoot-color;
+}
+
+img {
+    filter: contrast(80%);
 }
 
 

@@ -6,9 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass emmasTheme/scss/style.scss emmasTheme/css/style.css --no-source-map",
-    "style-min": "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed",
-    "watch":  "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed --watch"
+    "style-light": "sass emmasTheme/scss/style.scss emmasTheme/css/style.css --no-source-map",
+    "style-light-min": "sass emmasTheme/scss/style.scss emmasTheme/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass emmasTheme/scss/style-dark.scss emmasTheme/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass emmasTheme/scss/style-dark.scss emmasTheme/css/style-dark.min.css --no-source-map --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "watch": "sass emmasTheme/scss/style.scss:emmasTheme/css/style.css emmasTheme/scss/style-dark.scss:emmasTheme/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass emmasTheme/scss/style.scss:emmasTheme/css/style.min.css emmasTheme/scss/style-dark.scss:emmasTheme/css/style-dark.min.css --no-source-map --watch --style compressed"
   },
   "keywords": [],
   "author": "",

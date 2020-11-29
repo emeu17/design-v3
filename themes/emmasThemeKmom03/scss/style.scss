@@ -1,7 +1,10 @@
-/*Light mode theme*/
-@import 'variables';
 @import '../../shared/scss/base';
-@import 'typography';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 @import 'report';
 @import 'kmom';
 
@@ -66,9 +69,5 @@
 
     .js .nav-toggle>* {
         vertical-align: middle;
-    }
-
-    img {
-        max-width: 100%;
     }
 }
