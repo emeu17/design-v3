@@ -443,6 +443,24 @@ template {
   display: none;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -494,6 +512,17 @@ p {
 
 a {
   color: #86806a;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
 
 a:hover {
@@ -6727,6 +6756,39 @@ readers do not read off random characters that represent icons */
     font-size: 2em;
   }
 }
+.gallery {
+  display: grid;
+  gap: 1em 1em;
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gallery-wrapper {
+  /*grid-template-columns: repeat(3, minmax(0, 1fr));*/
+}
+
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+}
+/*https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html*/
 /* other imports */
 .me-pic {
   float: right;

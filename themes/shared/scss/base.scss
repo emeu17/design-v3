@@ -48,10 +48,21 @@ p {
     margin-bottom: 1rem; /* 1.4 * 1 = 1.4 em vår baseline kändes för mycket, minskade till 1rem */
 }
 
+
 a {
     color: $headfoot-color;
 }
 
+ol {
+    list-style-position: inside;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
 
 a:hover {
     color: $base-hover;

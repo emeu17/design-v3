@@ -4,6 +4,7 @@
 @import 'typography';
 @import 'report';
 @import 'kmom';
+@import 'gallery';
 
 /* other imports */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@300&display=swap');
@@ -23,8 +24,6 @@
 .footer p {
     color: $headfoot-color;
 }
-
-
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
 
