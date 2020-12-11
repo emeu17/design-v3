@@ -5,7 +5,9 @@ $headfoot-color: #86806a;
 $font-color: #333;
 $footer-color: #000;
 $footer-border: #000;
-$active-link-color: #ceaf7d;
+/* link color - slightly darker than headfoot-color for increased contrast */
+$link-color: #7a7406;
+$active-link-color: #b98d46;
 $hover-color: #3b440d;
 $base-hover: #000;
 
