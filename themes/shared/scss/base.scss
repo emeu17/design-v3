@@ -1,12 +1,16 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'layout';
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 
 * {
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Neucha', cursive;
+    /*font-family: 'Raleway', sans-serif;*/
 }
 
 h1,
@@ -15,7 +19,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-size: 33px;
+    /*font-family: 'Oswald', sans-serif;*/
     color: $font-color;
     /*padding-bottom: 0.5em;*/
 }
