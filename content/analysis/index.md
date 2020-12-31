@@ -30,3 +30,11 @@ Analysis
 </a>
 <p>Analys i kmom06 </p>
 </div>
+
+<div class="kmom-box project">
+<a href="analysis/10_webbplatsdesign">
+    <h2>Popular trends in design</h2>
+    <i class="fas fa-arrow-circle-right"></i>
+</a>
+<p>Analys i kmom10 </p>
+</div>

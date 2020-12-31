@@ -29,7 +29,7 @@ Desktop(Dator)-versionen av webbplatsen. Allt dokumenterades i ett Google kalkyl
 Resultat
 -----------------------
 
-<a href="https://docs.google.com/spreadsheets/d/1HVdU4DKR05DOai8IMxl0Uc1jI7DtujHNf6IxFYPzM-M/edit#gid=0">Här</a> finns en länk till
+<a href="https://docs.google.com/spreadsheets/d/1HVdU4DKR05DOai8IMxl0Uc1jI7DtujHNf6IxFYPzM-M/edit?usp=sharing">Här</a> finns en länk till
 sammanställningen av alla mätvärden för de tre webbplatserna.
 
 <h2>SMHI</h2>
