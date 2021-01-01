@@ -28,6 +28,10 @@
     padding: 2em 0.5em;
     margin: 0 auto;
     background-color: $bg-color;
+
+    ul {
+        color: $font-color;
+    }
 }
 
 .footer {

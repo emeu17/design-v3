@@ -15,11 +15,9 @@ webbplatser.
 Urval
 -----------------------
 Jag valde att göra en analys av fyra hemsidor inom kategorin advokatbyråer, baserad på att de har kontor i Sundsvall och minst två medarbetare;  Advokatfirman De Basso [2], Hanssons advokatfirma [3], Stenstadsadvokaterna [4] samt Advokatbolaget Pargéus & Karström [5].
-I projektet i kmom10 valde jag att göra en hemsida på temat *executive consulting high-end business company*. Då kändes advokatbyråer som
-en bra inspirationskälla.
 
 Tanken var att kunna jämföra likheter och skillnader mellan liknande webbplatser i färgsättning, typsnitt och
-deras val av designprinciper.
+deras val av designprinciper - och därmed också få en uppfattning om trender i design av advokatbyråers webbplatser. 
 
 Metod
 -----------------------
@@ -247,6 +245,4 @@ Referenser
 
 Övrigt
 -----------------------
-
-Då heltidsarbete tar upp större delen av vardagarna har grupparbete känts svårt att genomföra.
-Den här analysen och rapporten har därför genomförts och författats av Emma Edlund.
+Den här analysen och rapporten har genomförts och författats av Emma Edlund.
